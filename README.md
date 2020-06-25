@@ -1,22 +1,38 @@
 # EMV CPLC
 
+## Aplikacie:
+
+
+
 ## Github OpenSource:
 
-1) **EMV-NFC-Paycard-Enrollment**]
+### 1) **EMV-NFC-Paycard-Enrollment** \ Aplikace tiež
     - Licencia: Apache-2.0
-    - Info: ...
+        - Info: 
+            - Log - vypis ADPU komunikacie 
+            - Transactions - moznost vypisania transakcii
+            - Card Type 
+            - Pin try left
+            - AID of card (Aplication Identifier)
+            - Expire Date and Credit Card number
+
+    - Linky: [GitHub](https://github.com/devnied/EMV-NFC-Paycard-Enrollment), [Google Store](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
+
+### 2) **Library: Java EMV Reader**
+    - Licencia: Apache-2.0
+    - Info: Ta ista aplikacia ako 1) ,
     
     - Linky: [GitHub](https://github.com/devnied/EMV-NFC-Paycard-Enrollment), [Google Store](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
-    
-2) **Library: Java EMV Reader**
+
+### 3) **Library: Java EMV Reader**
     - Licencia: Apache-2.0
-    - Info: ...
     
     - linky: [GitHub](https://github.com/sasc999/javaemvreader)
-    
 
 
 
+## Postrehy
+- niektore karty nemaju CPLC info
 
 
 ## Zaujimave casti kodu
@@ -39,7 +55,7 @@
     -  Dodatok:
         - `//'9F50' to '9F7F' are reserved for the payment systems (proprietary)` - GOOD TO KNOW
         - riadok 181 : TAG pre zakladne info o karte
-        
+    
 - [EMV ADPU Commands](https://github.com/sasc999/javaemvreader/blob/master/src/main/java/sasc/emv/EMVAPDUCommands.java#L26)
 
 - [Nastroj na vyhladavanie EMV TAG](https://emvlab.org/emvtags/)
