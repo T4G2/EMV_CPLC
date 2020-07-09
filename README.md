@@ -2,32 +2,73 @@
 
 ## Aplikacie:
 
+### 1) **Credit Card Reader NFC (EMV) ** - Julien MILLEAU
+[Link](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard)
+
+### 2) **Pro Credit Card Reader NFC** - Julien MILLEAU (5,49€)
+[Link](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
+
+### 3) **Contactless Credit Card Reader** - MaxSoft Ltd
+[Link](https://play.google.com/store/apps/details?id=com.maxsoft.creditcardreader)
+
+### 4) **Credit Card Reader** - PS Technology
+[Link](https://play.google.com/store/apps/details?id=com.pstech.creditcardreaderapp)
+
+### ) **Credit Card NFC Reader - Antonov Andriy
+[Link]()
+   - Info
+      Showcase of Library [Link](https://github.com/pro100svitlo/Credit-Card-NFC-Reader)
+
+### ) **NFC Smart Card Info** - Ino AppLLC
+[Link](https://play.google.com/store/apps/details?id=com.inoapp.cardinfo)
+
+### ) **Credit Card Manager** - The  Simplest Net
+[Link]()
+
+### )  **NFC EMV Card Reader** - Viligan Vasilev (1.69€) 
+[Link]()
+
+### ) **EMV ???** - VALDA
+[Link]()
+
+### ) **MX EMV Card Reader** - Microexpert
+[Link](https://play.google.com/store/apps/details?id=com.microexpert.www.mxemvreader)
+   - Info:
+      - Global Platform Version
+      - Card Application Label
+      - Card Application ID
+      - Card Number
+      - Card Valid From & Expiry Date
+      - Card Transaction Counter
+      - Card Track 2 Data (Chip copy of Magnetic stripe data)
+
+
 
 
 ## Github OpenSource:
 
-### 1) **EMV-NFC-Paycard-Enrollment** \ Aplikace tiež
-    - Licencia: Apache-2.0
-        - Info: 
-            - Log - vypis ADPU komunikacie 
-            - Transactions - moznost vypisania transakcii
-            - Card Type 
-            - Pin try left
-            - AID of card (Aplication Identifier)
-            - Expire Date and Credit Card number
-
+### 1) **EMV-NFC-Paycard-Enrollment** \ Aplikace tiež (1, 2)
+  - Licencia: Apache-2.0
+      - Info: 
+          - Log - vypis ADPU komunikacie 
+          - Transactions - moznost vypisania transakcii
+          - Card Type 
+          - Pin try left
+          - AID of card (Aplication Identifier)
+          - Expire Date and Credit Card number
+        
     - Linky: [GitHub](https://github.com/devnied/EMV-NFC-Paycard-Enrollment), [Google Store](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
 
 ### 2) **Library: Java EMV Reader**
-    - Licencia: Apache-2.0
-    - Info: Ta ista aplikacia ako 1) ,
-    
-    - Linky: [GitHub](https://github.com/devnied/EMV-NFC-Paycard-Enrollment), [Google Store](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
+  - Licencia: Apache-2.0
+  - Info: Ta ista aplikacia ako 1) ,
+  
+  - Linky: [GitHub](https://github.com/devnied/EMV-NFC-Paycard-Enrollment), [Google Store](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
 
 ### 3) **Library: Java EMV Reader**
-    - Licencia: Apache-2.0
-    
-    - linky: [GitHub](https://github.com/sasc999/javaemvreader)
+  - Licencia: Apache-2.0
+  
+  - linky: [GitHub](https://github.com/sasc999/javaemvreader)
 
 
 
