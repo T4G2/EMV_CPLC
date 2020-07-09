@@ -2,38 +2,89 @@
 
 ## Aplikacie:
 
-### 1) **Credit Card Reader NFC (EMV) ** - Julien MILLEAU
-[Link](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard)
+### 1) **Credit Card Reader NFC (EMV) ** - Julien MILLEAU [Link](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard)
+  - Info: 
+      - Log - vypis ADPU komunikacie 
+      - Transactions - moznost vypisania transakcii
+      - Card Type 
+      - Pin try left
+      - AID of card (Aplication Identifier)
+      - Expire Date and Credit Card number
+      - 
+  - Povolenia 
+      - NFC
 
-### 2) **Pro Credit Card Reader NFC** - Julien MILLEAU (5,49€)
-[Link](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
+### 2) **Pro Credit Card Reader NFC** - Julien MILLEAU (5,49€) [Link](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
+  - Info
+      - Rovnaké možnosti ako hore, len s možnosťou ukladať karty
+  
+  - Povolenia 
+      - NFC
 
-### 3) **Contactless Credit Card Reader** - MaxSoft Ltd
-[Link](https://play.google.com/store/apps/details?id=com.maxsoft.creditcardreader)
+### 3) **Contactless Credit Card Reader** - MaxSoft Ltd [Link](https://play.google.com/store/apps/details?id=com.maxsoft.creditcardreader)
+  -Info
+      - Ukazuje základné informácie
+          - Credit No
+          - Expire Date
+          - Card Description
+      - Možnsosť upozornenia pri skončení platnosti karty
 
-### 4) **Credit Card Reader** - PS Technology
-[Link](https://play.google.com/store/apps/details?id=com.pstech.creditcardreaderapp)
+  - Povolenia 
+      - Storage
+      - Network Access - POTENTIALY DANGEROUS
+      - NFC
 
-### ) **Credit Card NFC Reader - Antonov Andriy
-[Link]()
-   - Info
+### 4) **Credit Card Reader** - PS Technology [Link](https://play.google.com/store/apps/details?id=com.pstech.creditcardreaderapp)
+  - Info
+      -  Ukazuje informácie
+          - Card Number
+          - Valid Up To
+          - Transactions
+  - Povolenia
+      - NFC
+
+### ) **Credit Card NFC Reader - Antonov Andriy [Link](https://play.google.com/store/apps/details?id=com.pro100svitlo.nfccardread&hl=sk)
+  - Info
+      - Informacie 
+          - Card Number
+          - Valid Up To
       Showcase of Library [Link](https://github.com/pro100svitlo/Credit-Card-NFC-Reader)
+      
+  - Povolenia
+      - NFC
+   
+### ) **NFC Smart Card Info** - Ino AppLLC [Link](https://play.google.com/store/apps/details?id=com.inoapp.cardinfo)
+  - Info
+      - show Tag ID
+      - show Well Known Applications (Do not show custom applications)
+          - known AIDs are in App 
+  - Povolenia
+      -NFC
 
-### ) **NFC Smart Card Info** - Ino AppLLC
-[Link](https://play.google.com/store/apps/details?id=com.inoapp.cardinfo)
+### )  **NFC EMV Card Reader** - Viligan Vasilev (1.69€)  [Link](https://play.google.com/store/apps/details?id=com.pxdworks.nfcemvreader)
+- Info
+      - ??
+  - Povolenia
+      - ??
 
-### ) **Credit Card Manager** - The  Simplest Net
-[Link]()
+### ) **EMV Decoder** - VALDA [Link](https://play.google.com/store/apps/details?id=cz.valda.EMVDecoder)
+- Info
+      - ???
+  - Povolenia
+      - NFC
 
-### )  **NFC EMV Card Reader** - Viligan Vasilev (1.69€) 
-[Link]()
+### **EMVContactlessReader** - Xavier Stenuit [Link](https://play.google.com/store/apps/details?id=com.development.ian.nfc_ian)
+- BROKEN(spadlo mi to)
+- 
+  - Info
+      - Select AID
+      - Read App Data
+      - Get Tags
+  - Povolenia
+      - NFC 
 
-### ) **EMV ???** - VALDA
-[Link]()
-
-### ) **MX EMV Card Reader** - Microexpert
-[Link](https://play.google.com/store/apps/details?id=com.microexpert.www.mxemvreader)
-   - Info:
+### ) **MX EMV Card Reader** - Microexpert [Link](https://play.google.com/store/apps/details?id=com.microexpert.www.mxemvreader)
+  - Info:
       - Global Platform Version
       - Card Application Label
       - Card Application ID
@@ -41,6 +92,9 @@
       - Card Valid From & Expiry Date
       - Card Transaction Counter
       - Card Track 2 Data (Chip copy of Magnetic stripe data)
+  
+  - Povolenia
+      - 
 
 
 
