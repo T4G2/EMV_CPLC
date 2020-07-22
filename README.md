@@ -1,89 +1,91 @@
 # EMV CPLC
 
-## Aplikacie:
+## Aplications:
 
 ### 1) **Credit Card Reader NFC (EMV) ** - Julien MILLEAU [Link](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard)
   - Info: 
-      - Log - vypis ADPU komunikacie 
-      - Transactions - moznost vypisania transakcii
+      - Log of ADPU communication
+      - Transactions - able to show latest transactions
       - Card Type 
       - Pin try left
       - AID of card (Aplication Identifier)
       - Expire Date and Credit Card number
       - 
-  - Povolenia 
+  - Permissions
       - NFC
 
 ### 2) **Pro Credit Card Reader NFC** - Julien MILLEAU (5,49€) [Link](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
   - Info
-      - Rovnaké možnosti ako hore, len s možnosťou ukladať karty
-  
-  - Povolenia 
+      - Same as above, but able to save cards
+
+  - Permissions
       - NFC
 
 ### 3) **Contactless Credit Card Reader** - MaxSoft Ltd [Link](https://play.google.com/store/apps/details?id=com.maxsoft.creditcardreader)
   -Info
-      - Ukazuje základné informácie
-          - Credit No
-          - Expire Date
-          - Card Description
-      - Možnsosť upozornenia pri skončení platnosti karty
+   - Show basic info:
+        - Credit No
+        - Expire Date
+        - Card Description
+              - able to turn on notification when card expires
 
-  - Povolenia 
+  - Permissions
       - Storage
       - Network Access - POTENTIALY DANGEROUS
       - NFC
 
 ### 4) **Credit Card Reader** - PS Technology [Link](https://play.google.com/store/apps/details?id=com.pstech.creditcardreaderapp)
   - Info
-      -  Ukazuje informácie
+      -  Show basic info:
           - Card Number
           - Valid Up To
           - Transactions
-  - Povolenia
+  - Permissions
       - NFC
 
-### ) **Credit Card NFC Reader - Antonov Andriy [Link](https://play.google.com/store/apps/details?id=com.pro100svitlo.nfccardread&hl=sk)
+### 5) **Credit Card NFC Reader - Antonov Andriy [Link](https://play.google.com/store/apps/details?id=com.pro100svitlo.nfccardread&hl=sk)
   - Info
       - Informacie 
           - Card Number
           - Valid Up To
       Showcase of Library [Link](https://github.com/pro100svitlo/Credit-Card-NFC-Reader)
       
-  - Povolenia
+  - Permissions
       - NFC
-   
-### ) **NFC Smart Card Info** - Ino AppLLC [Link](https://play.google.com/store/apps/details?id=com.inoapp.cardinfo)
+
+### 6) **NFC Smart Card Info** - Ino AppLLC [Link](https://play.google.com/store/apps/details?id=com.inoapp.cardinfo)
   - Info
       - show Tag ID
       - show Well Known Applications (Do not show custom applications)
           - known AIDs are in App 
-  - Povolenia
+  - Permissions
       -NFC
 
-### )  **NFC EMV Card Reader** - Viligan Vasilev (1.69€)  [Link](https://play.google.com/store/apps/details?id=com.pxdworks.nfcemvreader)
+### 7)  **NFC EMV Card Reader** - Viligan Vasilev (1.69€)  [Link](https://play.google.com/store/apps/details?id=com.pxdworks.nfcemvreader)
 - Info
       - ??
-  - Povolenia
-      - ??
-
-### ) **EMV Decoder** - VALDA [Link](https://play.google.com/store/apps/details?id=cz.valda.EMVDecoder)
-- Info
-      - ???
-  - Povolenia
+  - Permisions
       - NFC
 
-### **EMVContactlessReader** - Xavier Stenuit [Link](https://play.google.com/store/apps/details?id=com.development.ian.nfc_ian)
-- BROKEN(spadlo mi to)
+### 8) **EMV Decoder** - VALDA [Link](https://play.google.com/store/apps/details?id=cz.valda.EMVDecoder)
+- Info
+  
+      - ???
+  
+  - Permissions
+      - NFC
+
+### **9)EMVContactlessReader** - Xavier Stenuit [Link](https://play.google.com/store/apps/details?id=com.development.ian.nfc_ian)
+- BROKEN(on my phone)
 - 
   - Info
       - Select AID
       - Read App Data
       - Get Tags
-  - Povolenia
+  - ermisions
       - NFC 
 
-### ) **MX EMV Card Reader** - Microexpert [Link](https://play.google.com/store/apps/details?id=com.microexpert.www.mxemvreader)
+### 10) **MX EMV Card Reader** - Microexpert [Link](https://play.google.com/store/apps/details?id=com.microexpert.www.mxemvreader)
   - Info:
       - Global Platform Version
       - Card Application Label
@@ -93,16 +95,16 @@
       - Card Transaction Counter
       - Card Track 2 Data (Chip copy of Magnetic stripe data)
   
-  - Povolenia
-      - 
+  - Permisions
+      - NFC
 
 
 
 
 ## Github OpenSource:
 
-### 1) **EMV-NFC-Paycard-Enrollment** \ Aplikace tiež (1, 2)
-  - Licencia: Apache-2.0
+### 1) **EMV-NFC-Paycard-Enrollment** \ Application number (1, 2)
+  - Licence: Apache-2.0
       - Info: 
           - Log - vypis ADPU komunikacie 
           - Transactions - moznost vypisania transakcii
@@ -111,61 +113,60 @@
           - AID of card (Aplication Identifier)
           - Expire Date and Credit Card number
         
-    - Linky: [GitHub](https://github.com/devnied/EMV-NFC-Paycard-Enrollment), [Google Store](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
+    - Links: [GitHub](https://github.com/devnied/EMV-NFC-Paycard-Enrollment), [Google Store](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
 
 ### 2) **Library: Java EMV Reader**
-  - Licencia: Apache-2.0
-  - Info: Ta ista aplikacia ako 1) ,
+  - Licence: Apache-2.0
+  - Info: Almost same as  1) 
   
-  - Linky: [GitHub](https://github.com/devnied/EMV-NFC-Paycard-Enrollment), [Google Store](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
+  - Links: [GitHub](https://github.com/devnied/EMV-NFC-Paycard-Enrollment), [Google Store](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
 
 ### 3) **Library: Java EMV Reader**
-  - Licencia: Apache-2.0
+  - Licence: Apache-2.0
   
-  - linky: [GitHub](https://github.com/sasc999/javaemvreader)
+  - Links: [GitHub](https://github.com/sasc999/javaemvreader)
 
 
 
-## Postrehy
-- niektore karty nemaju CPLC info
+## Observations
+- Some cards dfo not have CPLC info
 
+## Interesting parts of code
 
-## Zaujimave casti kodu
+- [Card Types o(.txt)  |1](https://github.com/devnied/EMV-NFC-Paycard-Enrollment/blob/master/library/src/test/resources/smartcard_list.txt)
+    - Info: different cards can be detected out of something (Applet ID or something from CPLC)
 
-- [ Typy kart podla (coho?)  (.txt)  |1](https://github.com/devnied/EMV-NFC-Paycard-Enrollment/blob/master/library/src/test/resources/smartcard_list.txt)
-    - Info: rozne typy kariet ktore sa daju zistit z niecoho (pravdepodobne z CPLC)
-
-- [Rozne sekvencie prikazov pre rozne karty](https://github.com/devnied/EMV-NFC-Paycard-Enrollment/tree/master/library/src/test/resources/data)
-    - Dodatok:
-        - pri kazdom sa opakuje na zacaitku zistenie CPLC info pomocov prikazu [80 CA 9F 7F 00] 
-    - TODO - poriadne popozerat rozne prikazy, (skusit pochopit)
+- [Sequences of Commands for diferent types of cards](https://github.com/devnied/EMV-NFC-Paycard-Enrollment/tree/master/library/src/test/resources/data)
+    - More Info:
+        - on start of every sequence there is ADPU get CPLC [80 Ca 9F 7F 00]
+    - TODO -look at all commands, try to understand
 
 - [PSE, PPSE select strings](https://github.com/sasc999/javaemvreader/blob/f0d5920a94a0dc4be505fbb5dd03a7f1992f82bc/src/main/java/sasc/emv/EMVAPDUCommands.java#L53)
 
 - [GlobalPlatform Docs](https://sourceforge.net/p/globalplatform/wiki/GPShell/)
-    - Dodatok: 
-        - pri vyhladani prikazu na vyber CPLC 80 CA 9F 7F 00 sa zobrazi struct odpovede
+    - add. : 
+        - when sending ADPU command CPLC 80 CA 9F 7F 00, the CPLC will be recieved
 
 - [EMV Tags](https://github.com/sasc999/javaemvreader/blob/master/src/main/java/sasc/emv/EMVTags.java)
-    -  Dodatok:
-        - `//'9F50' to '9F7F' are reserved for the payment systems (proprietary)` - GOOD TO KNOW
-        - riadok 181 : TAG pre zakladne info o karte
+    -  add. :
+        - `//'9F50' to '9F7F' are reserved for the payment systems (proprietary)` - Good to Know
+        - row 181 : TAG to get basic info about card
     
 - [EMV ADPU Commands](https://github.com/sasc999/javaemvreader/blob/master/src/main/java/sasc/emv/EMVAPDUCommands.java#L26)
 
-- [Nastroj na vyhladavanie EMV TAG](https://emvlab.org/emvtags/)
+- [Searching tool of EMV TAGS](https://emvlab.org/emvtags/)
 
-- [ Status Byte(SW) odpovede](https://github.com/sasc999/javaemvreader/blob/f0d5920a94a0dc4be505fbb5dd03a7f1992f82bc/src/main/java/sasc/emv/SW.java#L30)
-    - Info: prehlad SW odpovedi
+- [ Status Byte(SW) responses](https://github.com/sasc999/javaemvreader/blob/f0d5920a94a0dc4be505fbb5dd03a7f1992f82bc/src/main/java/sasc/emv/SW.java#L30)
+    - Info: rewien of SW responses
 
 - [Bank Identiier Code(BIC)](https://github.com/sasc999/javaemvreader/blob/f0d5920a94a0dc4be505fbb5dd03a7f1992f82bc/src/main/java/sasc/emv/BankIdentifierCode.java#L24)
-    - Info:  nejake zakladne info o BIC
+    - Info:  basic info about  BIC
     
 - [VISA  Tags]( https://github.com/sasc999/javaemvreader/blob/master/src/main/java/sasc/emv/system/visa/VISATags.java)
 
 - [MasterCard Tags]( https://github.com/sasc999/javaemvreader/blob/master/src/main/java/sasc/emv/system/mastercard) 
-  - Dodatok : 
-      - **!(VISA and MasterCard):  Iphone nemoze citat specialne Tagy**
+  - add. : 
+      - **!(VISA and MasterCard):  Iphone can't read special Tags**
 ## For begginers
-- [Zoznam skratiek pre EMV](https://www.level2kernel.com/emv_glossary.html)
+- [Abreviations of EMV](https://www.level2kernel.com/emv_glossary.html)
 
