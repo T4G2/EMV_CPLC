@@ -117,14 +117,18 @@
 
 ### 2) **Library: Java EMV Reader**
   - Licence: Apache-2.0
-  - Info: Almost same as  1) 
-  
-  - Links: [GitHub](https://github.com/devnied/EMV-NFC-Paycard-Enrollment), [Google Store](https://play.google.com/store/apps/details?id=com.github.devnied.emvnfccard.pro)
-
-### 3) **Library: Java EMV Reader**
-  - Licence: Apache-2.0
-  
   - Links: [GitHub](https://github.com/sasc999/javaemvreader)
+
+### 2.1) ** Application based on 2) **
+  - Links [GitHub](https://github.com/JackuyLiu/Android-NFC-Paycard-Reader)
+
+### 3) **Library: Credit-Card-NFC-Reader**
+  - Licence:  MIT
+  - Links: [GitHub](https://github.com/pro100svitlo/Credit-Card-NFC-Reader)
+
+### 4) **Application: NFC-EMV-Reader  **
+  - Licence: GPL 3.0
+  - Links [GitHub] (https://github.com/n37sn4k3/NFC-EMV-Reader) 
 
 
 
