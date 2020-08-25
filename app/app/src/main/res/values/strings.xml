@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EMV_CPLC</string>
+    <string name="button">BUTTON</string>
+    <string name="input_name">input name</string>
+</resources>
