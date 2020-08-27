@@ -8,15 +8,22 @@ import android.nfc.Tag;
 import android.nfc.tech.IsoDep;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 import android.widget.Toast;
 
 
+import com.github.devnied.emvnfccard.model.CPLC;
 import com.github.devnied.emvnfccard.model.EmvCard;
+import com.github.devnied.emvnfccard.model.EmvTrack1;
+import com.github.devnied.emvnfccard.model.enums.CardStateEnum;
 import com.github.devnied.emvnfccard.parser.EmvTemplate;
 import com.github.devnied.emvnfccard.parser.impl.EmvParser;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Collection;
+import java.util.Date;
 import java.util.Objects;
 
 public class MainActivity extends FragmentActivity {
@@ -33,6 +40,7 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
 
         this.textView = findViewById(R.id.text_viewer);
+        textView.setMovementMethod(new ScrollingMovementMethod());
         // this.nfcAdapter = NfcAdapter.getDefaultAdapter(this);
 
         if (Objects.equals(getIntent().getAction(), NfcAdapter.ACTION_TECH_DISCOVERED)) {
@@ -98,15 +106,10 @@ public class MainActivity extends FragmentActivity {
                 return;
             }
 
-            String str = "CPLC:\n" + mCard.getCplc().toString()
-                    + "\n\n CardNo:\n" + mCard.getCardNumber()
-                    + "\n\n IBAN: \n" + mCard.getIban()
-                    + "\n\n ExpireDate: \n" + mCard.getExpireDate();
 
             // extracted
-            textView.setText(str);
-            //TODO whatever
-
+            String infoInString = this.getEmvCardInfoAsString(mCard);
+            textView.setText(infoInString);
 
         } catch (IOException e) {
             mException = true;
@@ -114,4 +117,32 @@ public class MainActivity extends FragmentActivity {
 
 
     }
+
+    private String getEmvCardInfoAsString(EmvCard mCard) {
+
+        String str = "DATA:\n";
+        str += "CPLC:\n" + mCard.getCplc();
+        str += "\n\n Type:\n" + mCard.getType();
+        str += "\n\n state:\n" + mCard.getState();
+
+        str += "\n\n At:\n" + mCard.getAt();
+        str += "\n\n AtrDescription:\n" + mCard.getAtrDescription();
+
+        // here down there are personal data (except track where there are some non personal data)
+
+        str += "\n\n Track1:\n" + mCard.getTrack1();
+        str += "\n\n Track2:\n" + mCard.getTrack2();
+
+        str += "\n\n IBAN:\n" + mCard.getIban();
+        str += "\n\n CardNumber:\n" + mCard.getCardNumber();
+        str += "\n\n ExpireDate:\n" + mCard.getExpireDate();
+        str += "\n\n firstName:\n" + mCard.getHolderFirstname();
+        str += "\n\n lastName:\n" + mCard.getHolderLastname();
+        str += "\n\n BIC:\n" + mCard.getBic();
+
+
+        return str;
+    }
+
+
 }
